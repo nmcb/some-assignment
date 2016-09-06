@@ -16,6 +16,12 @@ project/plugins/project/
 .scala_dependencies
 .worksheet
 
+# IntellIJ IDEA specific
+.idea/
+*.iml
+
 # Mac OS-X specific
 .DS_Store
+
+
 
