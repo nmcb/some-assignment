@@ -2,7 +2,7 @@ package assignment
 
 import scala.io.Codec
 
-object Test extends App {
+object Main extends App {
 
   val filename = "src/test/resources/records.csv"
   val run      = Importer.importCSV(filename)(Codec.ISO8859)

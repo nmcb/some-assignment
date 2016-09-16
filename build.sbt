@@ -1,5 +1,5 @@
 val ProjectName      = "assignment"
-val OrganisationName = "rabobank"
+val OrganisationName = "some"
 val ProjectVersion   = "0.0.1"
 val ScalaVersion     = "2.11.8"
 
