@@ -15,7 +15,7 @@ lazy val root = (project in file("."))
     name := ProjectName,
     libraryDependencies ++= Seq(
       "org.scalatest" %% "scalatest"  % "3.0.0"  % "test",
-      "com.lihaoyi"   %  "ammonite"   % "0.7.3"  % "test" cross CrossVersion.full
+      "com.lihaoyi"   %  "ammonite"   % "0.7.9"  % "test" cross CrossVersion.full
     )
   )
 
