@@ -14,7 +14,7 @@ lazy val root = (project in file("."))
   .settings(
     name := ProjectName,
     libraryDependencies ++= Seq(
-      "org.scalatest" %% "scalatest"  % "3.0.0"  % "test",
+      "org.scalatest" %% "scalatest"  % "3.0.9"  % "test",
       "com.lihaoyi"   %  "ammonite"   % "0.7.9"  % "test" cross CrossVersion.full
     )
   )
